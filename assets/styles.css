@@ -11,22 +11,19 @@ body {
     color:var(--light);
 }
 
-header{
-    padding: 20px;
-    flex-wrap: 0;
-
+header {
+    display: flex;
+    align-items: center;
+    background-image:url();
+    margin-bottom: 10px;
 }
 
-.headerh1{
-    text-align: center;
-    position: relative;
-    left: 350px;
-    bottom: 75px;
+.title {
     border: 5px inset var(--light);
     background-color: var(--piping);
     color: rgb(50, 47, 47);
-    box-sizing: border-box;
-    width: 45%;
+    margin-left: 200px;
+    font-size: 48px;
 }
 
 .pfp {
@@ -34,22 +31,26 @@ header{
     border: 5px solid var(--piping);
 }
 
-
-li {
-    display: inline-block;
-    position: relative;
-    left: 770px;
-    bottom: 250px;
-    padding:5px;
-    font-size: 20px;
-    font-weight: bold;
-}
-a{
+a {
     color: var(--light);
     text-decoration: none;
 }
 
-li::before {
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    padding-left: 5px;
+}
+
+nav li::before {
     content:"🎶";
 }
 
