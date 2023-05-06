@@ -1,0 +1,55 @@
+:root {
+    --dark: #154360;
+    --piping: #7D3C98;
+    --light: #fff
+}
+
+body {
+    background-color: var(--dark);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:var(--light);
+}
+
+header{
+    padding: 20px;
+    flex-wrap: 0;
+
+}
+
+.headerh1{
+    text-align: center;
+    position: relative;
+    left: 350px;
+    bottom: 75px;
+    border: 5px inset var(--light);
+    background-color: var(--piping);
+    color: rgb(50, 47, 47);
+    box-sizing: border-box;
+    width: 45%;
+}
+
+.pfp {
+    height: 150px;
+    border: 5px solid var(--piping);
+}
+
+
+li {
+    display: inline-block;
+    position: relative;
+    left: 770px;
+    bottom: 250px;
+    padding:5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+a{
+    color: var(--light);
+    text-decoration: none;
+}
+
+li::before {
+    content:"🎶";
+}
+
