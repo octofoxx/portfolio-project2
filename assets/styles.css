@@ -13,6 +13,7 @@ body {
     color:var(--light);
 }
 
+/* using flex properties, this puts the items in my header centered with equal space between all 3*/
 header {
     display: flex;
     align-items: center;
