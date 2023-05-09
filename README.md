@@ -18,6 +18,10 @@ N/A
 
 <https://github.com/octofoxx/portfolio-project2>
 
+## Screenshot
+
+![screenshot of site](./assets/images/portSite.png)
+
 ## Credits
 
 <https://www.webdesignhot.com/free-vector-graphics/free-abstract-blue-background-vector-graphic/> -for the background image in the header section.
