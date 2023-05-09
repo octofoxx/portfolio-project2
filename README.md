@@ -14,11 +14,13 @@ N/A
 
 ## Usage
 
-   https://github.com/octofoxx/portfolio-project2
+<https://octofoxx.github.io/portfolio-project2/>  
+
+<https://github.com/octofoxx/portfolio-project2>
 
 ## Credits
 
-https://www.webdesignhot.com/free-vector-graphics/free-abstract-blue-background-vector-graphic/ -for the background image in the header section.
+<https://www.webdesignhot.com/free-vector-graphics/free-abstract-blue-background-vector-graphic/> -for the background image in the header section.
 
 ## License
 
